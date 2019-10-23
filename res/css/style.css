@@ -1,0 +1,65 @@
+body{
+	background-color: #f7e6e6;
+}
+main{
+	flex: 1 0 auto;
+}
+main>.container {
+    margin-top: 20px;
+}
+@media only screen and (min-width: 993px){
+    .container{
+        width:80%
+    }
+}
+.card {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.card.card-login {
+    display: flex;
+}
+.card.card-login .card-login-splash {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex: 1;
+}
+.card.card-login .card-login-splash img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    display: block;
+    z-index: -1;
+}
+.card.card-login .card-content {
+    flex: 1;
+}
+header nav, footer{
+	background: #457fca;
+	background: -webkit-linear-gradient(to right, #5691c8, #457fca);
+	background: linear-gradient(to right, #5691c8, #457fca);
+}
+/* Custom CSS */
+.collapsible{
+    background: #fff;
+}
+.collapsible-body .body-content i.tiny.material-icons.left {
+    font-size: 13px;
+    padding-top: 3px;
+    margin-right: 5px;
+    color: #00285a;
+}
+.collapsible-body .body-content p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #00285a;
+}
+.collapsible-body .body-content p:hover{
+    color: #bc251f;
+}
